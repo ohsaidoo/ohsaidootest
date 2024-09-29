@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل طابعات HP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>بحث عن طابعات HP في السعودية</h1>
+        <input type="text" id="printerModel" placeholder="أدخل موديل الطابعة">
+        <button id="searchButton">بحث</button>
+        <button id="reloadButton">إعادة تحميل</button>
+
+        <div id="printerDetails" style="display: none;">
+            <h2>تفاصيل الطابعة</h2>
+            <p id="printerName">الاسم: <span></span></p>
+            <p id="printerInkType">نوع الحبر: <span></span></p>
+            <p id="printerPages">عدد الصفحات: <span></span></p>
+            <img id="printerImage" src="" alt="صورة الطابعة" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
